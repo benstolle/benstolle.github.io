@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on </title>
-    <link>/about/</link>
-    <description>Recent content in About on </description>
+    <title>About on Creative portfolio</title>
+    <link>https://benstolle.github.io/about/</link>
+    <description>Recent content in About on Creative portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 Nov 2022 13:25:04 +0100</lastBuildDate><atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Nov 2022 13:25:04 +0100</lastBuildDate><atom:link href="https://benstolle.github.io/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
