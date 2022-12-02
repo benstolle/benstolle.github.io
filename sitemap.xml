@@ -2,30 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.mdittri.ch/about/</loc>
+    <loc>https://www.mdittri.ch/portfolio/schwangerschaft/</loc>
+  </url><url>
+    <loc>https://www.mdittri.ch/portfolio/biogas/</loc>
+  </url><url>
+    <loc>https://www.mdittri.ch/portfolio/uran/</loc>
+  </url><url>
+    <loc>https://www.mdittri.ch/portfolio/vanuffelen2/</loc>
+  </url><url>
+    <loc>https://www.mdittri.ch/portfolio/vanufelen/</loc>
+  </url><url>
+    <loc>https://www.mdittri.ch/portfolio/radio/</loc>
+  </url><url>
+    <loc>https://www.mdittri.ch/portfolio/flz4/</loc>
+  </url><url>
+    <loc>https://www.mdittri.ch/portfolio/flz3/</loc>
+  </url><url>
+    <loc>https://www.mdittri.ch/portfolio/flz2/</loc>
+  </url><url>
+    <loc>https://www.mdittri.ch/portfolio/flz1/</loc>
+  </url><url>
+    <loc>https://www.mdittri.ch/portfolio/wip/</loc>
+  </url><url>
+    <loc>https://www.mdittri.ch/</loc>
     <lastmod>2022-11-28T13:25:04+01:00</lastmod>
   </url><url>
-    <loc>http://www.mdittri.ch/</loc>
+    <loc>https://www.mdittri.ch/about/</loc>
     <lastmod>2022-11-28T13:25:04+01:00</lastmod>
   </url><url>
-    <loc>http://www.mdittri.ch/portfolio/biogas/</loc>
+    <loc>https://www.mdittri.ch/categories/</loc>
   </url><url>
-    <loc>http://www.mdittri.ch/categories/</loc>
+    <loc>https://www.mdittri.ch/portfolio/</loc>
   </url><url>
-    <loc>http://www.mdittri.ch/portfolio/flz/</loc>
-  </url><url>
-    <loc>http://www.mdittri.ch/portfolio/uran/</loc>
-  </url><url>
-    <loc>http://www.mdittri.ch/portfolio/wip/</loc>
-  </url><url>
-    <loc>http://www.mdittri.ch/portfolio/</loc>
-  </url><url>
-    <loc>http://www.mdittri.ch/portfolio/vanufelen/</loc>
-  </url><url>
-    <loc>http://www.mdittri.ch/portfolio/schwangerschaft/</loc>
-  </url><url>
-    <loc>http://www.mdittri.ch/tags/</loc>
-  </url><url>
-    <loc>http://www.mdittri.ch/portfolio/radio/</loc>
+    <loc>https://www.mdittri.ch/tags/</loc>
   </url>
 </urlset>
