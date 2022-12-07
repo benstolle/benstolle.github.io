@@ -89,6 +89,14 @@
       <div class="content-column-content">
          <h1>Urbaner Geschosswohnungsbau</h1>
          <p>Vorstellung von verschiedenen Architekturprojekten in der Stadt. Hier beispielhaft: mein Text zum Wohnblock &ldquo;Mitte 160 – Rundum Stadt&rdquo;. Das <a href="https://de.van-uffelen.de/urbaner-geschosswohnungsbau">Buch</a> erschien 2021 im Verlag ff publishers.</p>
+<script src="https://www.mdittri.ch/js/pdfobject.js"></script>
+
+<script>
+    const orientation = "horizontal";
+    PDFObject.embed("https://www.mdittri.ch/pdf/Dittrich_Malina_Redaktionsbuero.pdf",
+        {pdfOpenParams: { zoom: "horizontal" === "horizontal" ? "page-width" : "page-height" }}
+    );
+</script>
          
       </div>
     </div>
@@ -107,7 +115,5 @@
 <script src="https://www.mdittri.ch/js/imagesloaded.pkgd.min.js"></script>
 <script src="https://www.mdittri.ch/js/owl.carousel.min.js"></script>
 <script src="https://www.mdittri.ch/js/front.js"></script>
-
-
 </body>
 </html>

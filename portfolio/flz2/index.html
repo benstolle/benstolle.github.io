@@ -90,6 +90,18 @@
          <h1>Herrieden fieberte mit</h1>
          <p>Aufmacher des Lokalteils Dinkelsbühl-Feuchtwangen am 18. Februar 2022 in der Fränkischen Landeszeitung. Bericht über die Olympiasiegerin Denise Herrmann.</p>
 
+
+<script src="https://www.mdittri.ch/js/pdfobject.js"></script>
+
+<script>
+    const orientation = "horizontal";
+    PDFObject.embed("https://www.mdittri.ch/pdf/FLZ_Malina_2.pdf",
+        {pdfOpenParams: { zoom: "horizontal" === "horizontal" ? "page-width" : "page-height" }}
+    );
+</script>
+
+
+
          
       </div>
     </div>
@@ -108,7 +120,5 @@
 <script src="https://www.mdittri.ch/js/imagesloaded.pkgd.min.js"></script>
 <script src="https://www.mdittri.ch/js/owl.carousel.min.js"></script>
 <script src="https://www.mdittri.ch/js/front.js"></script>
-
-
 </body>
 </html>

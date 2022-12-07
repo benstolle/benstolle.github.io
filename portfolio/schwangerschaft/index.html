@@ -89,6 +89,14 @@
       <div class="content-column-content">
          <h1>Tabuthema</h1>
          <p>Magazinbericht – eine Protagonistin erzählt von ihrem Schwangerschaftsabbruch. Erschienen in der 25. Ausgabe des <a href="https://www.kaspar-magazin.de">Kaspar</a>-Magazins, Sommer 2022.</p>
+<script src="https://www.mdittri.ch/js/pdfobject.js"></script>
+
+<script>
+    const orientation = "vertical";
+    PDFObject.embed("https://www.mdittri.ch/pdf/Kaspar_Schwangerschaftsabbrueche.pdf",
+        {pdfOpenParams: { zoom: "vertical" === "horizontal" ? "page-width" : "page-height" }}
+    );
+</script>
          
       </div>
     </div>
@@ -107,7 +115,5 @@
 <script src="https://www.mdittri.ch/js/imagesloaded.pkgd.min.js"></script>
 <script src="https://www.mdittri.ch/js/owl.carousel.min.js"></script>
 <script src="https://www.mdittri.ch/js/front.js"></script>
-
-
 </body>
 </html>

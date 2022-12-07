@@ -89,6 +89,14 @@
       <div class="content-column-content">
          <h1>Wenn Bauern Gas geben</h1>
          <p>Magazinbericht zu Biogasanlagen. Erschienen in der 24. Ausgabe des <a href="https://kaspar-magazin.de">Kaspar</a>-Magazins, Winter 2021.</p>
+<script src="https://www.mdittri.ch/js/pdfobject.js"></script>
+
+<script>
+    const orientation = "horizontal";
+    PDFObject.embed("https://www.mdittri.ch/pdf/Kaspar_Biogasanlagen.pdf",
+        {pdfOpenParams: { zoom: "horizontal" === "horizontal" ? "page-width" : "page-height" }}
+    );
+</script>
          
       </div>
     </div>
@@ -107,7 +115,5 @@
 <script src="https://www.mdittri.ch/js/imagesloaded.pkgd.min.js"></script>
 <script src="https://www.mdittri.ch/js/owl.carousel.min.js"></script>
 <script src="https://www.mdittri.ch/js/front.js"></script>
-
-
 </body>
 </html>

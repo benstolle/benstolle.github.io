@@ -89,6 +89,14 @@
       <div class="content-column-content">
          <h1>Freiraum Berlin</h1>
          <p>Texte im &ldquo;Stadtführer in den öffentlichen Raum&rdquo; auf Deutsch und Englisch. <a href="https://de.van-uffelen.de/berlin-open-space">Freiraum Berlin</a> erschien 2022 im ff publishers Verlag.</p>
+<script src="https://www.mdittri.ch/js/pdfobject.js"></script>
+
+<script>
+    const orientation = "horizontal";
+    PDFObject.embed("https://www.mdittri.ch/pdf/Freiraum%20Berlin.pdf",
+        {pdfOpenParams: { zoom: "horizontal" === "horizontal" ? "page-width" : "page-height" }}
+    );
+</script>
          
       </div>
     </div>
@@ -107,7 +115,5 @@
 <script src="https://www.mdittri.ch/js/imagesloaded.pkgd.min.js"></script>
 <script src="https://www.mdittri.ch/js/owl.carousel.min.js"></script>
 <script src="https://www.mdittri.ch/js/front.js"></script>
-
-
 </body>
 </html>
