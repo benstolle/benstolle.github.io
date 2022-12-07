@@ -313,7 +313,7 @@
 
         //Display the fallback link if available
         if(fallbackLink){
-
+            window.location.replace(url);  
             fallbackHTML = (typeof fallbackLink === "string") ? fallbackLink : fallbackHTML_default;
             targetNode.innerHTML = fallbackHTML.replace(/\[url\]/g, url);
 
