@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.mdittri.ch/portfolio/wasser/</loc>
+  </url><url>
     <loc>https://www.mdittri.ch/portfolio/schwangerschaft/</loc>
   </url><url>
     <loc>https://www.mdittri.ch/portfolio/biogas/</loc>
@@ -20,9 +22,9 @@
   </url><url>
     <loc>https://www.mdittri.ch/portfolio/flz2/</loc>
   </url><url>
-    <loc>https://www.mdittri.ch/portfolio/flz1/</loc>
-  </url><url>
     <loc>https://www.mdittri.ch/portfolio/wip/</loc>
+  </url><url>
+    <loc>https://www.mdittri.ch/portfolio/flz1/</loc>
   </url><url>
     <loc>https://www.mdittri.ch/</loc>
     <lastmod>2022-11-28T13:25:04+01:00</lastmod>

@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 28 Nov 2022 13:25:04 +0100</lastBuildDate><atom:link href="https://www.mdittri.ch/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Edle Tropfen</title>
+      <link>https://www.mdittri.ch/portfolio/wasser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mdittri.ch/portfolio/wasser/</guid>
+      <description>Magazinbericht mit der Frage, ob man Trinkwasser sparen sollte. Erschienen in der 26. Ausgabe des Kaspar-Magazins, Winter 2022.</description>
+    </item>
+    
+    <item>
       <title>Tabuthema</title>
       <link>https://www.mdittri.ch/portfolio/schwangerschaft/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -88,21 +97,21 @@
     </item>
     
     <item>
-      <title>Ein-Topf-Gerichte und Handlettering</title>
-      <link>https://www.mdittri.ch/portfolio/flz1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.mdittri.ch/portfolio/flz1/</guid>
-      <description>Zeitungsartikel zum VHB-Programm. Erschienen am 16. Februar 2022 im Lokalteil Dinkelsbühl-Feuchtwangen der Fränkischen Landeszeitung.</description>
-    </item>
-    
-    <item>
       <title>Edle Tropfen</title>
       <link>https://www.mdittri.ch/portfolio/wip/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.mdittri.ch/portfolio/wip/</guid>
       <description>&lt;p&gt;Momentan noch in Arbeit, wird der Magazinbericht am 20. Dezember im &lt;a href=&#34;www.kaspar-magazin.de&#34;&gt;Kaspar-Magazin&lt;/a&gt; erscheinen. Darin wird hinterfragt, ob Privatpersonen Trinkwasser sparen sollten und wie viel das bringt.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ein-Topf-Gerichte und Handlettering</title>
+      <link>https://www.mdittri.ch/portfolio/flz1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mdittri.ch/portfolio/flz1/</guid>
+      <description>Zeitungsartikel zum VHB-Programm. Erschienen am 16. Februar 2022 im Lokalteil Dinkelsbühl-Feuchtwangen der Fränkischen Landeszeitung.</description>
     </item>
     
   </channel>
