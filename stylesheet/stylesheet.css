@@ -73,6 +73,14 @@ h2 {
     line-height: 1.5em;
 }
 
+.impressum h2 {
+    font-size: 1.4em;
+    color: black;
+    font-family: 'Inter', 'calibri', sans-serif;
+    font-style: normal;
+    line-height: 48px;
+    font-weight: 400;
+}
 
 
 /* NAVBAR */
@@ -319,6 +327,12 @@ a.active:active, a.active:visited, a.active
     margin-bottom: 20px;
 }
 
+.impressum {
+    margin-left: 350px;
+    margin-right: 350px; 
+    margin-top: 20px; 
+
+}
 
 
 /* FOOTER */
@@ -751,6 +765,11 @@ header {
 }
 
 
+.impressum {
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
 /* PHONE HOME HERO */
 
 
@@ -907,4 +926,8 @@ header {
         background-color: #e7e7e7;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       }
+
+      #impressum {
+margin-top: 70px; 
+    } 
       
