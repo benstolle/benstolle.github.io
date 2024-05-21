@@ -438,8 +438,8 @@ a.active:active, a.active:visited, a.active
 .bike-container {
     display: flex;
     flex-direction: row;  
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-top: 50px;
     gap: 50px 50px;
     justify-content: center;
