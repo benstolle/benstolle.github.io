@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malinas Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon-bike.png">
+
+    <link rel="stylesheet"  href="./stylesheet/stylesheet.css">  
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+        </style>  
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const backButton = document.querySelector('.back-button');
+      backButton.addEventListener('click', function() {
+        window.history.back();
+      });
+    });
+  </script>
+
+
+</head>
+
+<header> 
+
+
+    <nav>
+    <ul class="navbar">
+        <li class="nav-item"><a href="index.html">Home</a>
+        <li class="nav-item"><a href="/index.html#Arbeit">Meine Arbeit</a></li>
+        <li class="nav-item"><a href="/index.html#Ueber">Über mich</a></li>
+        <li class="nav-item"><a href="#Kontakt">Kontakt</a></li>
+
+
+    </ul> 
+    </nav>  
+
+<!-- HAMBURGER MENU PHONE -->
+
+    <input type="checkbox" id="hamburger-input" class="burger-shower">
+    <label id="hamburger-menu" for="hamburger-input">
+        <span class="material-symbols-outlined">
+            menu
+            </span> 
+    <span id="sidebar-menu">
+        
+        <span id="menu-heading">Menu</span> <br> 
+        <a href="index.html">Home</a> <br>
+        <a href="./index.html#Arbeit">Meine Arbeit</a> <br>
+        <a href="./index.html#Ueber">Über mich</a> <br>
+        <a href="#Kontakt">Kontakt</a> <br>
+        
+    </span>
+
+</label> 
+</header>
+
+
+
+<!--HERO -->
+
+<div class="hero" id="windrad">
+    <div class="container">
+        <div class="info">
+        
+        </div>
+      </div>
+    </div>
+
+<body>
+
+    <button class="back-button">
+        <span>Zurück</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M19 12H5M12 19L5 12L12 5" />
+        </svg>
+      </button>
+
+     
+      
+
+    <figure>
+        <figcaption> <h1>Windrad vs. Rotmilan</h1>
+
+           <p> Die oft emotionale Debatte um Windräder ist besonders geprägt von einem Argument: Windräder seien schlecht für Vögel. Um hier für eine Annäherung zu sorgen, werden im bayerischen Fuchstal Kameras getestet, die Windräder automatisch abschalten, wenn ein Vogel in die Nähe fliegt. </p> <br>
+            
+            <audio controls src="./audio/windrad.mp3"></audio>
+      
+      </figure>
+
+
+
+
+
+       <!-- FOOTER SECTION -->
+
+    <footer>
+
+
+        <section class="footer">
+            <div class="footer-container" id="Kontakt">
+        
+                <div class="fuss">
+                    <img src="./images/ich.JPG" alt="Malina Dittrich">
+                   
+                </div>
+               
+               
+               
+                <div class="fuss">
+                    <h1> Kontakt </h5> 
+                 
+                    <p>Mail: <a href="mailto:mail@mdittri.ch">mail@mdittri.ch</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/malina-dittrich-0a9bb4227/">Malina Dittrich</a></p>
+        
+                
+         
+                </div>
+                
+            
+            
+        
+            </div>
+        
+        </section>
+
+        </footer>
+    
+</body>
+</html>
+

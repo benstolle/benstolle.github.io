@@ -205,9 +205,36 @@ a.active:active, a.active:visited, a.active
     height: 70vh;
 }
 
+#fussball {
+    background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
+      url("../images/ball2.jpg") no-repeat center bottom / cover;
+    color: whitesmoke;
+    height: 70vh;
+}
 
 
+#windrad {
+    background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
+      url("../images/windrad2.jpeg") no-repeat center bottom / cover;
+    color: whitesmoke;
+    height: 70vh;
+}
 
+
+#containern {
+    background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
+      url("../images/containern2.jpeg") no-repeat center bottom / cover;
+    color: whitesmoke;
+    height: 70vh;
+}
+
+
+#inklusion {
+    background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
+      url("../images/wg.jpg") no-repeat center bottom / cover;
+    color: whitesmoke;
+    height: 70vh;
+}
 
 
 
@@ -415,7 +442,7 @@ a.active:active, a.active:visited, a.active
     margin-right: 350px;
     margin-top: 50px;
     gap: 50px 50px;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     } 
 
@@ -646,6 +673,8 @@ header {
   }
 
 
+
+
 /* PHONE FOOTER */
 
 .footer-container { 
@@ -660,7 +689,7 @@ header {
     font-family: 'Inter', 'calibri', sans-serif;
     text-align: left;
     margin-top: 50px;
-    height: 50vh;
+    height: 130vh;
 }
 
 .footer h4 {
@@ -675,6 +704,10 @@ header {
 .footer a{
     line-height: 1.6em;
 }
+
+
+
+
 
 
 
@@ -710,6 +743,12 @@ header {
     margin-right:  10px;
     gap: 50px 0px;
  }
+
+ #umwelt {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
 
 
 /* PHONE HOME HERO */
@@ -786,3 +825,86 @@ header {
     }
     
     }
+
+
+    /* audio */
+
+
+    figure {
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    figcaption {
+        font-size: 0.9em;
+        color: black;
+        font-family: 'Inter', 'calibri', sans-serif;
+        font-style: normal;
+        line-height: 1.4rem;
+        font-weight: 400;
+        margin-bottom: 30px;
+        width: 50%;
+    }
+    
+    figcaption h1 {
+        font-size: 1.8em;
+        color: black;
+        font-family: 'Inter', 'calibri', sans-serif;
+        font-style: normal;
+        line-height: 40px;
+        font-weight: 600;
+        border-bottom: 4px solid rgb(223, 167, 179);
+        width: 30%;
+        text-transform: none;
+        margin-bottom: 20px;
+        margin-top: 60px; 
+    }
+    
+    audio {
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+
+
+    /* button */
+
+    .back-button {
+        background-color: transparent;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1em;
+        font-family: 'Inter', 'calibri', sans-serif;
+        font-weight: 400;
+        color: #000000;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+      }
+      
+      .back-button svg {
+        width: 24px;
+        height: 24px;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 2;
+      }
+      
+      .back-button:hover {
+        background-color: #f7f7f7;
+        border-radius: 4px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .back-button:active {
+        background-color: #e7e7e7;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+      
