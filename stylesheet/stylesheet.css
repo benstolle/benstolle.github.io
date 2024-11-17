@@ -185,6 +185,13 @@ a.active:active, a.active:visited, a.active
     height: 70vh;
 }
 
+#zukunst {
+    background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
+      url("../images/zukunst2.jpeg") no-repeat center bottom / cover;
+    color: whitesmoke;
+    height: 70vh;
+}
+
 #tricycle {
     background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
       url("../images/staudamm2.jpeg") no-repeat center bottom / cover;
@@ -271,6 +278,18 @@ a.active:active, a.active:visited, a.active
       font-family: 'Inter', 'Calibri', sans-serif;
       font-size: 1.2em;
       line-height: 1.3em;
+  }
+
+  .zukunsttext p {
+    color: rgb(238, 236, 236); 
+    font-family: 'Inter', 'Calibri', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    width: 130%;
+  }
+
+  .zukunst figure {
+    align-items: left;
   }
   
 
@@ -361,6 +380,12 @@ a.active:active, a.active:visited, a.active
     gap: 50px 100px;
 }
 
+.fuss-zukunst {
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    padding-top:100px;
+}
 
 
 .footer a {
@@ -390,6 +415,12 @@ a.active:active, a.active:visited, a.active
     height: 60vh;
 }
 
+/* ZUKUNST */
+.zukunst { 
+    margin-left: 350px; 
+    margin-right: 350px;
+   
+}
 
  /* CONTACT */
 
@@ -834,6 +865,13 @@ header {
         margin-left: 10px;
 }
 
+.zukunsttext p {
+    width: 550px;
+    margin-left: 10px;
+    
+}
+
+
 
 
 }
@@ -842,12 +880,21 @@ header {
     #price-phone {
         visibility: hidden;
     }
+
+    div.zukunst {
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     
     }
 
 
     /* audio */
 
+   
 
     figure {
         margin: 20px;
@@ -856,6 +903,8 @@ header {
         flex-direction: column;
         align-items: center;
     }
+
+    
     
     figcaption {
         font-size: 0.9em;
