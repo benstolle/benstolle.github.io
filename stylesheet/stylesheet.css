@@ -717,6 +717,11 @@ header {
     margin-right: 10px;
   }
 
+  .zukunst {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
 
 
 
@@ -726,6 +731,13 @@ header {
     margin-left: 15px; 
     gap: 20px 30px;
     line-height: 1.4rem;
+}
+
+.fuss-zukunst {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    padding-top:10px;
 }
 
 .footer{
@@ -865,11 +877,7 @@ header {
         margin-left: 10px;
 }
 
-.zukunsttext p {
-    width: 550px;
-    margin-left: 10px;
-    
-}
+
 
 
 
@@ -882,12 +890,12 @@ header {
     }
 
     div.zukunst {
-        margin: 20px;
-        padding: 20px;
+        margin-left: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     
     }
 
@@ -935,6 +943,10 @@ header {
         width: 50%;
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+
+    iframe {
+        width: 200%;
     }
 
 
